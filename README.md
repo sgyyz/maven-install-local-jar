@@ -10,3 +10,6 @@ mvn install:install-file  -DgroupId=your-group-id -DartifactId=your-artifact-id 
 ```
 mvn install:install-file  -DgroupId=net.sourceforge.jgeocoder -DartifactId=jgeocoder -Dpackaging=jar -Dversion=0.5 -Dfile="C:\Users\sgyyz\Downloads\jgeocoder-0.5-jar-with-dependencies.jar"
 ```
+
+## Note
+Please ensure that the `Dfile` path without space.
